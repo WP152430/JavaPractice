@@ -7,35 +7,35 @@ public class Car {
 	private int maxSpeed;
 	private int price;
 	
-	String getCompany(){
+	public String getCompany(){
 		return company;
 	}
-	String getModel(){
+	public String getModel(){
 		return model;
 	}
-	String getColor(){
+	public String getColor(){
 		return color;
 	}
-	int getMaxSpeed(){
+	public int getMaxSpeed(){
 		return maxSpeed;
 	}
-	int getPrice(){
+	public int getPrice(){
 		return price;
 	}
 	
-	void setCompany(String newCompany){
+	public void setCompany(String newCompany){
 		company=newCompany;
 	}
-	void setModel(String newModel){
+	public void setModel(String newModel){
 		model=newModel;
 	}
-	void setColor(String newColor){
+	public void setColor(String newColor){
 		color=newColor;
 	}
-	void setMaxSpeed(int newMaxSpeed){
+	public void setMaxSpeed(int newMaxSpeed){
 		maxSpeed=newMaxSpeed;
 	}
-	void setPrice(int newPrice){
+	public void setPrice(int newPrice){
 		price=newPrice;
 	}
 }
