@@ -7,16 +7,15 @@ public class Car2 {
 	private int maxSpeed;
 	private int price;
 	
-	Car2(){
+	public Car2(){
 		
 	}
-	Car2(String newCompany, String newModel,  String newColor, int newMaxSpeed,int newPrice){
+	public Car2(String newCompany, String newModel,  String newColor, int newMaxSpeed,int newPrice){
 		company=newCompany;
 		color=newColor;
 		maxSpeed=newMaxSpeed;
 		price=newPrice;
 		model=newModel;
-		
 	}
 	
 	public String getCompany(){
@@ -35,19 +34,4 @@ public class Car2 {
 		return price;
 	}
 	
-	public void setCompany(String newCompany){
-		company=newCompany;
-	}
-	public void setModel(String newModel){
-		model=newModel;
-	}
-	public void setColor(String newColor){
-		color=newColor;
-	}
-	public void setMaxSpeed(int newMaxSpeed){
-		maxSpeed=newMaxSpeed;
-	}
-	public void setPrice(int newPrice){
-		price=newPrice;
-	}
 }
