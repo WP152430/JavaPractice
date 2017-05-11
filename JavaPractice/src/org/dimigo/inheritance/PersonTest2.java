@@ -12,7 +12,6 @@ public class PersonTest2 {
 			greeting(p);
 		}
 		
-
 	}
 	private static void greeting(Person p){
 		System.out.println(p);
