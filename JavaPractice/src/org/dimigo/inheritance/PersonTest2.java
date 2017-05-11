@@ -11,7 +11,7 @@ public class PersonTest2 {
 		for(Person p : a){
 			greeting(p);
 		}
-		
+	
 	}
 
 	private static void greeting(Person p){
