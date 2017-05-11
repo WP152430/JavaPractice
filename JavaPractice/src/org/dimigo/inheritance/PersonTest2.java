@@ -13,7 +13,6 @@ public class PersonTest2 {
 		}
 	
 	}
-
 	private static void greeting(Person p){
 		System.out.println(p);
 		p.sayHello();
