@@ -1,4 +1,4 @@
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
 public class Galaxy extends SmartPhone{
 	public Galaxy(){

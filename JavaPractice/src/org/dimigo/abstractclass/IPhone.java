@@ -1,4 +1,4 @@
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
 public class IPhone extends SmartPhone{
 	public IPhone(){
