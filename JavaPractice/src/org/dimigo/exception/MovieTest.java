@@ -9,7 +9,11 @@ public class MovieTest {
 		};
 		int age = 13;
 		for(Movie movie : movies) {
-		movie.buyTicket(age); // 예외 발생
-		}
-		}
+			try{
+				movie.buyTicket(age); // 예외 발생			
+			}catch(Exception e){
+				System.out.println(e.getMessage());
+			}	
+		}	
+	}
 }
