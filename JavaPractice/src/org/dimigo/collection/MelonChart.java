@@ -6,7 +6,7 @@ public class MelonChart {
 
 	public static void main(String[] args) {
 
-		List<Music> l = new ArrayList<>(Arrays.asList(new Music("I LUV IT", "싸이"), new Music("맞지?", "언니쓰")));
+		List<Music> l = new ArrayList<>(Arrays.asList(new Music("I LUV IT", "PSY"), new Music("맞지?", "언니쓰")));
 		System.out.println("-- << 멜론 챠트 >> --");
 		printList(l);
 
