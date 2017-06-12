@@ -18,18 +18,15 @@ public class MelonGenreChart {
 		
 		System.out.println("\n--<<댄스 2위 곡 변경>>--");
 		l.set(1, new Music("SIGNAL", "트와이스"));
-		map.put("댄스", l);
 		printMap(map);
 		
 		System.out.println("\n--<<댄스 1위 곡 삭제>>--");
 		l.remove(0);
-		map.put("댄스", l);
 		printMap(map);
 
 		System.out.println("\n--<<전체 리스트 삭제>>--");
 		map.clear();
 		printMap(map);
-		
 		
 		
 	}
